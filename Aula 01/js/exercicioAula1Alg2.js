@@ -23,18 +23,18 @@ for (let contador = 1; contador <= quantidade; contador++) {
         maior = numero
     } else {
 
-        if (numero < menor) {
+        if (numero<menor) {
             menor = numero
 
 
-        if (numero > maior) {
+        if (numero>maior) {
                 maior = numero
-            }
+        }  
 
         }
 
     }
-    }   
+}  
      media = soma / quantidade
     alert("Menor " + menor)
     alert("Maior " + maior)
